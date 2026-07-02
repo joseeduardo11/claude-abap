@@ -2,11 +2,11 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @Metadata.allowExtensions: true
 @Search.searchable: true
+@ObjectModel.semanticKey: [ 'TravelID' ]
 define root view entity ZDMO_C_TRAVEL
   provider contract transactional_query
   as projection on ZDMO_R_TRAVEL
 {
-  @ObjectModel.semanticKey: [ 'TravelID' ]
       key TravelUUID,
       @Search.defaultSearchElement: true
       TravelID,
