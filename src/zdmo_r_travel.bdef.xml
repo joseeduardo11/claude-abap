@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <BDEF>
-    <NAME>ZDMO_R_TRAVEL</NAME>
-    <TYPE>BDEF</TYPE>
-    <ORIGINAL_OBJECT_TYPE>BDEF</ORIGINAL_OBJECT_TYPE>
+    <METADATA>
+     <DESCRIPTION>Behavior Definition for ZDMO_R_TRAVEL</DESCRIPTION>
+    </METADATA>
    </BDEF>
   </asx:values>
  </asx:abap>

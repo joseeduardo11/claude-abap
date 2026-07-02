@@ -20,7 +20,6 @@ define root view entity ZDMO_R_TRAVEL
       booking_fee            as BookingFee,
       @Semantics.amount.currencyCode: 'CurrencyCode'
       total_price            as TotalPrice,
-      @Semantics.currencyCode: true
       currency_code          as CurrencyCode,
       description            as Description,
       overall_status         as OverallStatus,
