@@ -1,5 +1,4 @@
 projection;
-strict ( 2 );
 use draft;
 
 define behavior for ZDMO_C_TRAVEL alias Travel

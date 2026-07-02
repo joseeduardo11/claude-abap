@@ -1,5 +1,4 @@
 managed;
-strict ( 2 );
 with draft;
 
 define behavior for ZDMO_R_TRAVEL alias Travel
