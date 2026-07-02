@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRVB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SRVB>
+    <HEADER>
+     <NAME>ZDMO_UI_TRAVEL_O4</NAME>
+     <BINDING_TYPE>ODATA</BINDING_TYPE>
+     <BINDING_CATEGORY>UI</BINDING_CATEGORY>
+     <BINDING_VERSION>V4</BINDING_VERSION>
+     <DESCRIPTION>Service Binding for Travel (OData V4 UI)</DESCRIPTION>
+    </HEADER>
+    <SERVICES>
+     <SRVBSRV>
+      <SRV_DEFINITION>ZDMO_UI_TRAVEL</SRV_DEFINITION>
+      <SRV_NAME>ZDMO_UI_TRAVEL</SRV_NAME>
+      <SRV_VERSION>0001</SRV_VERSION>
+     </SRVBSRV>
+    </SERVICES>
+   </SRVB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

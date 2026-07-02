@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Travel (UI)'
+define service ZDMO_UI_TRAVEL {
+  expose ZDMO_C_TRAVEL as Travel;
+}
