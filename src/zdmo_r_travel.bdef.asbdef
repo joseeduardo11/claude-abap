@@ -1,4 +1,4 @@
-managed implementation in class zbp_dmo_r_travel unique;
+managed;
 strict ( 2 );
 with draft;
 
@@ -7,13 +7,9 @@ persistent table zdmo_a_travel_d
 draft table zdmo_d_travel
 lock master
 total etag LastChangedAt
-early numbering
-authorization master ( instance )
-
 {
   field ( numbering : managed, readonly ) TravelUUID;
-  field ( readonly ) TravelID;
-  field ( mandatory ) AgencyID, CustomerID, BeginDate, EndDate, CurrencyCode;
+  field ( mandatory ) TravelID, AgencyID, CustomerID, BeginDate, EndDate;
 
   field ( readonly ) LocalCreatedBy, LocalCreatedAt, LocalLastChangedBy, LocalLastChangedAt, LastChangedAt;
 
@@ -26,8 +22,6 @@ authorization master ( instance )
   draft action Activate optimized;
   draft action Discard;
   draft determine action Prepare;
-
-  determination assignTravelID on save { create; }
 
   mapping for zdmo_a_travel_d
     {
